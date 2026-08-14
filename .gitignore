@@ -1,0 +1,19 @@
+# 1. Ignore massive physical data folders
+train_data/
+val_data/
+test_data/
+cgcnn_data/
+
+# 2. Ignore raw dataset files
+matbench_mp_e_form.json
+matbench_mp_e_form.json/
+atom_init.json
+
+# 3. Ignore PyTorch model weights (these are way too large for GitHub)
+*.pth
+*.pth.tar
+*.pth1.tar
+
+# 4. Ignore temporary Python caches
+__pycache__/
+.ipynb_checkpoints/
